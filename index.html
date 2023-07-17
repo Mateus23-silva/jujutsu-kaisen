@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jujutsu Kasein</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img class="logo" src="./src/imagens/logo.png" alt="Logo Jujutsu-Kaisen">
+    </header>
+
+    <main class="selecao-de-personagens">
+      <section class="personagens">
+        <h1 class="titulo">Selecione um personagem</h1>
+        <ul class="lista-de-personagens">
+          <li class="personagem selecionado" id="aoi-todo" data-name="Aoi Todo" data-description="Aoi prefere o combate corpo a corpo a qualquer outra coisa, normalmente contando com a força bruta para dominar seus oponentes ao invés de Jujutsu">
+            <img
+              src="./src/imagens/card-aoi-todo.jpg"
+              alt="Personagem Aoi Todo"
+            />
+          </li>
+          <li class="personagem" id="itadori-yuji" data-name="Itadori Yuji" data-description="Yuji é um combatente habilidoso que pode fazer julgamentos rápidos e golpes poderosos. Yuji pode fazer um ataque refinado, como interromper seu ataque um pouco antes de acertar e ajustar seu poder em seu punho ">
+            <img
+              src="./src/imagens/card-itadori-yuji.jpg"
+              alt="Personagem Itadori Yuji"
+            />
+          </li>
+
+          <li class="personagem" id="maki-zenin" data-name="Maki Zenin" data-description="Capaz de empunhar uma grande variedade de armas diferentes, Maki é considerada uma especialista em todos os tipos de armamento, ela normalmente usa lanças em batalha, mas é totalmente capaz de alternar entre várias armas no decorrer de uma única luta">
+            <img
+              src="./src/imagens/card-maki-zenin.jpg"
+              alt="Personagem Maki Zenin"
+            />
+          </li>
+
+          <li class="personagem" id="megumi-fushigoro" data-name="Megumi Fushigoro" data-description="Ele é capaz de detectar rapidamente várias fraquezas que seus oponentes podem ter, megumi também é capaz de determinar as técnicas amaldiçoadas que seus oponentes possam ter">
+            <img
+              src="./src/imagens/card-megumi-fushigoro.jpg"
+              alt="Personagem Megumi Fushigoro"
+            />
+          </li>
+
+          <li class="personagem" id="yuta-okkotsu" data-name="Yuta Okkotsu" data-description=" Yuta utiliza uma Katana que foi dada a ele por Satoru Gojo, na qual ele concentra sua energia amaldiçoada para criar ataques muito mais efetivos">
+            <img
+              src="./src/imagens/card-yuta-okkotsu.jpg"
+              alt="Personagem Yuta Okkotsu"
+            />
+          </li>
+
+          <li class="personagem" id="mei-mei" data-name="Mei Mei" data-description="Mei Mei tem muita experiência em batalha contra maldições e é muito astuta ao lidar com elas">
+            <img
+              src="./src/imagens/card-mei-mei.jpg"
+              alt="Personagem Mei Mei"
+            />
+          </li>
+
+          <li class="personagem" id="nobara-kugisaki" data-name="Nobara Kugisaki" data-description="A Técnica Inata de Nobara permite que ela use um boneco de palha para atacar o oponente à distância">
+            <img
+              src="./src/imagens/card-nobara-kugisaki.jpg"
+              alt="Personagem Nobara Kugisaki"
+            />
+          </li>
+
+          <li class="personagem" id="satoru-gojo" data-name="Satoru Gojo" data-description=" Satoru é considerado um dos, senão, o feiticeiro mais forte da série, contendo imensas quantidades de Energia Amaldiçoada e uma técnica perigosamente poderosa, além de ser capaz de utilizar a técnica de Expansão de Domínio">
+            <img
+              src="./src/imagens/card-satoru-gojo.jpg"
+              alt="Personagem Satoru Gojo"
+            />
+          </li>
+        </ul>
+      </section>
+      <section class="personagem-selecionado">
+        <img
+          class="personagem-grande"
+          src="./src/imagens/card-aoi-todo.png"
+          alt="Personagem Selecionado"
+        />
+
+        <div class="informacoes-personagem">
+          <h2 class="nome-personagem" id="nome-personagem">Aoi Todo</h2>
+          <p class="descricao-personagem" id="descricao-personagem">
+            Aoi prefere o combate corpo-a-corpo a qualquer outra coisa, normalmente contando com a força bruta para dominar seus oponentes ao invés de Jujutsu.
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
